@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>placeholder</title>
+</head>
+<body>
+<form action="#">
+    <input type="text" class="myplace" placeholder="请输入用户名"><br/><br/>
+    <textarea class="myplace" placeholder="请输入留言信息"></textarea>
+</form>
+
+<script src="jquery1.42.min.js"></script>
+<script src="placeholder.js"></script>
+<script>
+    $(function(){
+        //将需要使用placeholder的表单元素的类名myplace匹配到下面的方法内即可
+        myPalce.init('.myplace');
+    });
+</script>
+</body>
+</html>
